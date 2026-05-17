@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Local state (never check in)
+state.db
+state.db-journal
+state.db-wal
+state.db-shm
+
+# Backups
+*.bak
+*.bak.*
+*.backup
+*.backup.*
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local config — contains secrets
+config.toml
+!config.toml.example
